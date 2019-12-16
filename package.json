@@ -1,0 +1,24 @@
+{
+  "name": "tbot",
+  "version": "1.0.0",
+  "description": "boot twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caio Carnelos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "twit": "^2.2.11"
+  },
+  "API": {
+    "consumer_key": "CONSUMERKEY",
+    "consumer_secret": "CONSUMERSECRET",
+    "access_token": "ACCESSTOKEN",
+    "access_token_secret": "ACCESSTOKENSECRET",
+    "timeout_ms": 60000,
+    "strictSSL": false,
+    "apiKey": "APIKEY"
+	  }
+}
